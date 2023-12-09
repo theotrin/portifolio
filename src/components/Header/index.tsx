@@ -17,6 +17,12 @@ function Header(){
                 <li className='menu-item' >
                    <a href="/pricing">home</a>
                 </li>
+                <li className='menu-item' >
+                   <a href="/pricing">home</a>
+                </li>
+                <li className='menu-item' >
+                   <a href="/pricing">home</a>
+                </li>
             </ul>
 
         </nav>
