@@ -8,6 +8,7 @@
   --yellow-cyberpunk: #fde90e;
   --green-cyberpunk:  #67fb1f;
   --blue-cyberpunk:  #3dc9fa;
+  scroll-behavior: smooth;
   
   background-color: var(--yellow-cyberpunk);
 }
