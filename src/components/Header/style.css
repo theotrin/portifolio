@@ -36,8 +36,8 @@ ul a{
 
 
     padding: 1rem 2rem;
-    background: linear-gradient(45deg, transparent 5%, #fde90e 5%, #fde90e 90%, transparent 90%),
-              linear-gradient(215deg, transparent 5%, #fde90e 5%, #fde90e 90%, transparent 90%);
+    background: linear-gradient(45deg, transparent 5%, var(--green-cyberpunk) 5%, var(--green-cyberpunk) 90%, transparent 90%),
+              linear-gradient(215deg, transparent 5%, var(--green-cyberpunk) 5%, var(--green-cyberpunk) 90%, transparent 90%);
     border: 0;
     color: #000;
 

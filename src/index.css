@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
 
 :root{
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
-  background-color: wheat;
-  font-size: 62.5%;
+  --yellow-cyberpunk: #fde90e;
+  --green-cyberpunk:  #67fb1f;
+  --blue-cyberpunk:  #3dc9fa;
+  
+  background-color: var(--yellow-cyberpunk);
 }
 
 *{
