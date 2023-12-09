@@ -17,7 +17,6 @@ ul a{
 }
 
 .menu{
-    background-color: #333;
     color: #fff;    
     display: flex;
     justify-content: space-between;
@@ -33,23 +32,28 @@ ul a{
     display: flex;
 
     width: 40rem;
-    
     text-align: center;
 
-    border-left: 1.5rem solid transparent;
+
+    padding: 1rem 2rem;
+    background: linear-gradient(45deg, transparent 5%, #fde90e 5%, #fde90e 90%, transparent 90%),
+              linear-gradient(215deg, transparent 5%, #fde90e 5%, #fde90e 90%, transparent 90%);
+    border: 0;
+    color: #000;
+
+    /* border-left: 1.5rem solid transparent;
     border-bottom-left-radius: 6rem;
     border-top-right-radius: 6rem;
     border-right: 1.8rem solid transparent;
     border-top: 1.8rem solid #fcee0a;
-    border-bottom: 1.8rem solid #fcee0a;
+    border-bottom: 1.8rem solid #fcee0a; */
 }
 
 .menu-item{
     flex-grow: 1;
     gap: 1rem;
-
-    background: rgba(0,0,0);
     padding: 1rem;
+    background-color: #07bcf3;
 }
 
 li:hover{

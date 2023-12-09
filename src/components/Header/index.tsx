@@ -3,7 +3,7 @@ import './style.css'
 
 function Header(){
     return (
-        <nav className='menu'>
+        <header className='menu'>
             <img src={logo} className='logoTT' alt="logo escruta TT"/>
 
             <ul className='menu-list'>
@@ -25,7 +25,7 @@ function Header(){
                 </li>
             </ul>
 
-        </nav>
+        </header>
     )
 }
 
