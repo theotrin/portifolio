@@ -34,6 +34,7 @@ function Body(){
             >Saiba <span aria-hidden>Mais</span>
                 <span aria-hidden className="cybr-btn__glitch">Saiba mais</span>
                 <span aria-hidden className="cybr-btn__tag">TT</span>
+                <a href="#about-me"></a>
             </button>
 
 
