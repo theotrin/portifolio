@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap');
+
 .about{
   color: #fff;
   width: 100vw;
@@ -24,7 +26,7 @@
 
 .about-me-content p{
   font-size: 1.7rem;  
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 .about-me-text{

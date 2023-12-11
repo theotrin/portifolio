@@ -15,7 +15,9 @@
     "react-awesome-button": "^7.0.5",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
-    "react-router-hash-link": "^2.4.3"
+    "react-router-hash-link": "^2.4.3",
+    "react-vanilla-tilt": "^1.0.0",
+    "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
