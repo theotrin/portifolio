@@ -12,6 +12,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Hello/>
     <AboutMe/>
     <Projects/>
-    <Projects/>
   </React.StrictMode>,
 )
