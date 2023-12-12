@@ -71,7 +71,7 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Frontend</h4>
 
-                    <p>Esse foi um dos projetos trouxe mais resultado do que beleza ou tecnologias usadas. <br/><br/> ao chegar em uma empresa de nivel estadual como estagiario percebi um problema logo de cara: o envio execivo de emails feito pelos estagiarios a mão uma hora era encaminhado com erros, as vezes de ortografia as vezes os nomes de professor fulano era trocado para projessora ciclana e o corpo ficava todo confuso. <br/> <br/>
+                    <p className='email-text'>Esse foi um dos projetos trouxe mais resultado do que beleza ou tecnologias usadas. <br/><br/> ao chegar em uma empresa de nivel estadual como estagiario percebi um problema logo de cara: o envio execivo de emails feito pelos estagiarios a mão uma hora era encaminhado com erros, as vezes de ortografia as vezes os nomes de professor fulano era trocado para projessora ciclana e o corpo ficava todo confuso. <br/> <br/>
                     Eu estava aprendendo Javascript e percebi que poderia solucinar esse problema trazer mais <span className='prod'>produtividade</span> e menos <span className='erro'>erros</span> para a empresa, então com muita vontade de resolver o erro fiz um site simples porem que fez sucesso no ambiente de trabalho que resolvia ativamente esse problema e desde então os emais foram enviados com um indice extremamente baixo de erros pelos funcionarios do local(imagine que vergonha para uma empresa de renome em todo o estado do Amazonas). <br/>
                     <span className='prod'>foi um projeto simple mas que resolveu um problema do mundo real!</span>
                     </p>

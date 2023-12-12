@@ -1,4 +1,4 @@
-import logo from '../../assets/theo logo.svg'
+import logo from '../../assets/theo logo.png'
 import './style.css'
 
 function Header(){
@@ -6,6 +6,7 @@ function Header(){
         <header className='menu'>
             <img src={logo} className='logoTT' alt="logo escruta TT"/>
 
+         
             <ul className='menu-list'>
                 <li className='menu-item'>
                     <a href="/pricing">pricing</a>

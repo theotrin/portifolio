@@ -53,6 +53,10 @@ button, a{
     height: auto;
 }
 
+.email-text{
+    font-size: 1.7rem;
+}
+
 .cta-buttons {
     padding: 1.3em 2em;
     font-size: 1.2rem;
