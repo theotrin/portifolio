@@ -1,6 +1,7 @@
 import './style.css'
 import picture from '../../assets/theo.png'
 import AOS from 'aos';
+import curriculo from '../../assets/Theo_Trindade_Dev_Fullstack.pdf'
 import { useEffect } from 'react';
 import 'aos/dist/aos.css'
 
@@ -37,7 +38,10 @@ function AboutMe (){
                 No tempo vago e fora da area de programação gosto de jogar videogame, desafiar os limites do meu corpo em calistenia, assistir animes e adoro passear sem rumo enquanto minha mente divaga em pensamentos aleatorios e distópicos :p</p>
        
         <div className='about-me-button'>
-        <button className="button-cover" role="button"><span className="text">Ver Curriculo</span><span>Otima Escolha!</span></button>
+        <a 
+        href={curriculo}
+        target='blank'
+        className="button-cover" role="button"><span className="text">Ver Curriculo</span><span>Otima Escolha!</span></a>
         </div>
        
         </div>
