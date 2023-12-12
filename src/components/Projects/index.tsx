@@ -3,6 +3,7 @@ import project_0_image from '../../assets/na-operacao-atm-do-banco-digite-a-senh
 import EmailProject from '../../assets/email project.jpg'
 import PdvApi from '../../assets/pdv api.jpg'
 import CyberpunkProject from '../../assets/cyberpunk project.jpg'
+import BuscadorCep from '../../assets/buscador de cep.png'
 import Tilt from 'vanilla-tilt';
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -122,36 +123,6 @@ function Projects(){
                 </div>
             </div>
 
-            <div className='project'>
-            
-               <div 
-                data-aos="zoom-in-left"
-                data-aos-duration="500"
-                data-aos-offset="200"
-               className="project-text-content">
-               <div className='project-title'><h2>Este Portifólio!</h2></div>
-
-                <div className='project-text'>
-                    <h4 className='project-stack'>#Fullstack</h4>
-
-                    <p>Esse portifolio foi fruto de uma vontade imensa de sair da zona de conforto e tentar fazer algo prático e da minha cabeça. <br /><br />
-                    Depois de ver varios portifolios parecidos decidir que queria fazer o meu de uma forma diferente e com um tema de algo que eu gostasse e rapidamente me veio o universo Cyberpunk em mente! logo o tema do site e a estetica futuristica e distopica foi totalmente inspirada em Cyberpunk Edgerunners e foi desafiador e muito legal e divertido elaborar e fazer ele! <br/><br/>
-                    </p>
-                    <div className='buttons-container'>
-                    <a  href='https://github.com/theotrin/portifolio'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
-                    </div>
-                </div>
-                
-                </div> 
-                <div className='project-image'>
-                    <img 
-                     data-aos="zoom-in-right"
-                     data-aos-duration="500"
-                     data-aos-offset="200"
-                    src={CyberpunkProject} width={800} height={500} alt="imagem do David e Lucy do anime Cyberpunk Mecenarios" />
-                </div>
-            </div>
-
 
             <div className='project'>
             
@@ -165,13 +136,13 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Frontend</h4>
 
-                    <p>Projeto feito por mim do 0 com uma ideia vinda da minha cabeça!<br/><br/>
+                    <p>Projeto feito por mim do 0 com muito amor e vontade de fazer algo dirente!<br/><br/>
                         Quando pensei em fazer um portifolio quis fazer algo que fosse dirente dos outros dirente do classico tema escuro e bordas aredondadas, e rapidamente me veio em mente algo que eu gosto muito: o universo cyberpunk! <br/><br/>
-                        Fazer esse projeto foi me arrancar da zona de conforto escolhi React e Typescript pois acho a possibilidade de organizar componentes maravilhsa e extremament pratica
+                        Fazer esse projeto foi me arrancar da zona de conforto escolhi React e Typescript pois acho a possibilidade de organizar componentes maravilhosa e extremamente prática
                     </p>
                     <div className='buttons-container'>
-                    <a className='cta-buttons' href='https://easy-gray-snail-cap.cyclic.app/categoria' target='blank' >Ver projeto</a>
-                    <a  href='https://github.com/theotrin/api-pdv'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
+                    <button className='cta-buttons' onClick={() => window.alert('você esta nele!')}  >Ver projeto</button>
+                    <a  href='https://github.com/theotrin/portifolio'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
                     </div>
                 </div>
                 
@@ -181,9 +152,42 @@ function Projects(){
                      data-aos="zoom-in-right"
                      data-aos-duration="500"
                      data-aos-offset="200"
-                    src={CyberpunkProject}  alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
+                    src={CyberpunkProject}  alt="David e Lucy do anime cyberpunk mercenarios" />
                 </div>
             </div>
+
+            <div className='project'>
+            
+            <div 
+             data-aos="zoom-in-left"
+             data-aos-duration="500"
+             data-aos-offset="200"
+            className="project-text-content">
+            <div className='project-title'><h2>Buscador de CEP!</h2></div>
+
+             <div className='project-text'>
+                 <h4 className='project-stack'>#Fullstack</h4>
+
+                 <p>Essa foi a primeira vez "estilizando o backend" <br /><br />
+                 Ao informar o cep o site retorna os dados da rua,bairro,complemento e a cidade e estado! <br/>
+                 Nele ultilizei o Axios para consumir a API viacep fiz algumas validações para evitar erros pela parte do usuario. <br />
+                 A facilidade que o react tem em fazer isso me deixou impressionado fullstack é o melhor de dois mundos!
+                 </p>
+                 <div className='buttons-container'>
+                 <a className='cta-buttons' href='https://buscador-cep-black.vercel.app' target='blank' >Ver projeto</a>
+                 <a  href='https://github.com/theotrin/buscador-cep'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
+                 </div>
+             </div>
+             
+             </div> 
+             <div className='project-image'>
+                 <img 
+                  data-aos="zoom-in-right"
+                  data-aos-duration="500"
+                  data-aos-offset="200"
+                 src={BuscadorCep}  alt="David e Lucy do anime cyberpunk mercenarios" />
+             </div>
+         </div>
 
 
 
