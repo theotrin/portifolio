@@ -103,7 +103,7 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Backend</h4>
 
-                    <p>A API representou o projeto final da parceria entre Cubos Academy e iFood. Após seis meses intensos de aprendizado em backend, implementei meus conhecimentos e colaboramos em equipe. Composto por mim e cinco colegas escolhidos aleatoriamente de uma turma de 120 pessoas, enfrentamos desafios logísticos e horários distintos. <br/><br />
+                    <p>A API representou o projeto final da parceria entre Cubos Academy e iFood. Após seis meses intensos de aprendizado em backend, implementei meus conhecimentos e colaboramos em equipe. Composto por mim e cinco colegas escolhidos aleatoriamente de uma turma de 120 pessoas, enfrentamos desafios de logica de programação e divergencia de horarios. <br/><br />
                     A parte técnica até que foi fácil. Porém, o desafio de fazer o projeto todo funcionar com várias pessoas diferentes e com diferenças de horário foi uma experiência e tanto. Trabalhamos com Git, dividimos o trabalho em partes, utilizamos a metodologia ágil em forma de scrum e fizemos sprints toda semana para a entrega de partes do projeto a cada uma semana.
                     </p>
                     <div className='buttons-container'>
@@ -119,6 +119,36 @@ function Projects(){
                      data-aos-duration="500"
                      data-aos-offset="200"
                     src={PdvApi}  alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
+                </div>
+            </div>
+
+            <div className='project'>
+            
+               <div 
+                data-aos="zoom-in-left"
+                data-aos-duration="500"
+                data-aos-offset="200"
+               className="project-text-content">
+               <div className='project-title'><h2>Este Portifólio!</h2></div>
+
+                <div className='project-text'>
+                    <h4 className='project-stack'>#Fullstack</h4>
+
+                    <p>Esse portifolio foi fruto de uma vontade imensa de sair da zona de conforto e tentar fazer algo prático e da minha cabeça. <br /><br />
+                    Depois de ver varios portifolios parecidos decidir que queria fazer o meu de uma forma diferente e com um tema de algo que eu gostasse e rapidamente me veio o universo Cyberpunk em mente! logo o tema do site e a estetica futuristica e distopica foi totalmente inspirada em Cyberpunk Edgerunners e foi desafiador e muito legal e divertido elaborar e fazer ele! <br/><br/>
+                    </p>
+                    <div className='buttons-container'>
+                    <a  href='https://github.com/theotrin/portifolio'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
+                    </div>
+                </div>
+                
+                </div> 
+                <div className='project-image'>
+                    <img 
+                     data-aos="zoom-in-right"
+                     data-aos-duration="500"
+                     data-aos-offset="200"
+                    src={CyberpunkProject} width={800} height={500} alt="imagem do David e Lucy do anime Cyberpunk Mecenarios" />
                 </div>
             </div>
 
