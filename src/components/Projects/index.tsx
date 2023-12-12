@@ -2,6 +2,7 @@ import './style.css'
 import project_0_image from '../../assets/na-operacao-atm-do-banco-digite-a-senha.jpg'
 import EmailProject from '../../assets/email project.jpg'
 import PdvApi from '../../assets/pdv api.jpg'
+import CyberpunkProject from '../../assets/cyberpunk project.jpg'
 import Tilt from 'vanilla-tilt';
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -52,12 +53,11 @@ function Projects(){
                     data-aos="zoom-in-left"
                     data-aos-duration="500"
                     data-aos-offset="200"
-                    src={project_0_image} width={800} height={500} alt="fazendo operações em um caixa eletrônico" />
+                    src={project_0_image} alt="fazendo operações em um caixa eletrônico" />
                 </div>
             </div>
-
-
-
+           
+           
             <div className='project'>
             
                <div 
@@ -68,7 +68,7 @@ function Projects(){
                <div className='project-title'><h2>Preparador de email</h2></div>
 
                 <div className='project-text'>
-                    <h4 className='project-stack'>#Fullstack</h4>
+                    <h4 className='project-stack'>#Frontend</h4>
 
                     <p>Esse foi um dos projetos trouxe mais resultado do que beleza ou tecnologias usadas. <br/><br/> ao chegar em uma empresa de nivel estadual como estagiario percebi um problema logo de cara: o envio execivo de emails feito pelos estagiarios a mão uma hora era encaminhado com erros, as vezes de ortografia as vezes os nomes de professor fulano era trocado para projessora ciclana e o corpo ficava todo confuso. <br/> <br/>
                     Eu estava aprendendo Javascript e percebi que poderia solucinar esse problema trazer mais <span className='prod'>produtividade</span> e menos <span className='erro'>erros</span> para a empresa, então com muita vontade de resolver o erro fiz um site simples porem que fez sucesso no ambiente de trabalho que resolvia ativamente esse problema e desde então os emais foram enviados com um indice extremamente baixo de erros pelos funcionarios do local(imagine que vergonha para uma empresa de renome em todo o estado do Amazonas). <br/>
@@ -86,7 +86,7 @@ function Projects(){
                     data-aos="zoom-in-right"
                     data-aos-duration="500"
                     data-aos-offset="200"
-                    src={EmailProject} width={800} height={500} alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
+                    src={EmailProject} alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
                 </div>
             </div>
 
@@ -118,9 +118,47 @@ function Projects(){
                      data-aos="zoom-in-right"
                      data-aos-duration="500"
                      data-aos-offset="200"
-                    src={PdvApi} width={800} height={500} alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
+                    src={PdvApi}  alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
                 </div>
             </div>
+
+
+            <div className='project'>
+            
+               <div 
+                data-aos="zoom-in-left"
+                data-aos-duration="500"
+                data-aos-offset="200"
+               className="project-text-content">
+               <div className='project-title'><h2>Esse portifolio!</h2></div>
+
+                <div className='project-text'>
+                    <h4 className='project-stack'>#Frontend</h4>
+
+                    <p>Projeto feito por mim do 0 com uma ideia vinda da minha cabeça!<br/><br/>
+                        Quando pensei em fazer um portifolio quis fazer algo que fosse dirente dos outros dirente do classico tema escuro e bordas aredondadas, e rapidamente me veio em mente algo que eu gosto muito: o universo cyberpunk! <br/><br/>
+                        Fazer esse projeto foi me arrancar da zona de conforto escolhi React e Typescript pois acho a possibilidade de organizar componentes maravilhsa e extremament pratica
+                    </p>
+                    <div className='buttons-container'>
+                    <a className='cta-buttons' href='https://easy-gray-snail-cap.cyclic.app/categoria' target='blank' >Ver projeto</a>
+                    <a  href='https://github.com/theotrin/api-pdv'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
+                    </div>
+                </div>
+                
+                </div> 
+                <div className='project-image'>
+                    <img 
+                     data-aos="zoom-in-right"
+                     data-aos-duration="500"
+                     data-aos-offset="200"
+                    src={CyberpunkProject}  alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
+                </div>
+            </div>
+
+
+
+
+            
 
 
         </div>

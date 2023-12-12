@@ -2,10 +2,10 @@
 
 .project{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row; /* Por padrão, a direção é row, então isso pode ser omitido */
+    justify-content: space-evenly; /* Isso coloca as divs no início e no final do container pai */
     align-items: center;
-
-    margin-bottom: 20rem;
+    margin-bottom: 30rem;
 }
 
 .project-stack{
@@ -17,7 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10rem;
+
+    margin-bottom: 20rem;
 
     font-size: 5rem;
 }
@@ -45,6 +46,11 @@ button, a{
 .buttons-container{
     display: flex;
     width: 37rem;
+}
+
+.project-image img{
+    max-width: 50vw;
+    height: auto;
 }
 
 .cta-buttons {
