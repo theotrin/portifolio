@@ -28,11 +28,12 @@ function Projects(){
         <div>
 
             <h2 className='project-main-title'>Projetos</h2>
-            <div className='project'
-               data-aos="zoom-in-left"
-               data-aos-duration="500"
-               data-aos-offset="200"
-               data-aos-delay="500"
+            <div 
+              className='project'
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-aos-duration="500"
+              data-aos-offset="200"
             >
             
                <div 
@@ -42,7 +43,7 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Backend</h4>
 
-                    <p>Desenvolvi uma API REST com Express, Node e Nodemon. Oferece funcionalidades como: criar/listar/atualizar/excluir contas bancárias/depósito/saque/transferência/ consulta de saldo e emissão de extrato. <br/> Eficiente e escalável para gestão simplificada de operações bancárias.foi uma prova proposta pela Cubos academy onde tirei nota máxima</p>
+                    <p>Desenvolvi uma API REST com Express, Node e Nodemon. Oferece funcionalidades como: criar, listar, atualizar, excluir contas bancárias, depósito, saque, transferência, consulta de saldo e emissão de extrato. <br/> É eficiente e escalável para gestão simplificada de operações bancárias. Foi uma prova proposta pela Cubos Academy, onde tirei nota máxima.</p>
                     <div className='buttons-container'>
                     <a  href='https://github.com/theotrin/api-de-banco'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
                     </div>
@@ -60,7 +61,8 @@ function Projects(){
            
             <div 
             className='project'
-            data-aos="zoom-in-left"
+            data-aos="zoom-in"
+            data-aos-delay="200"
             data-aos-duration="500"
             data-aos-offset="200"
             >
@@ -73,9 +75,10 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Frontend</h4>
 
-                    <p className='email-text'>Esse foi um dos projetos trouxe mais resultado do que beleza ou tecnologias usadas. <br/><br/> ao chegar em uma empresa de nivel estadual como estagiario percebi um problema logo de cara: o envio execivo de emails feito pelos estagiarios a mão uma hora era encaminhado com erros, as vezes de ortografia as vezes os nomes de professor fulano era trocado para projessora ciclana e o corpo ficava todo confuso. <br/> <br/>
-                    Eu estava aprendendo Javascript e percebi que poderia solucinar esse problema trazer mais <span className='prod'>produtividade</span> e menos <span className='erro'>erros</span> para a empresa, então com muita vontade de resolver o erro fiz um site simples porem que fez sucesso no ambiente de trabalho que resolvia ativamente esse problema e desde então os emais foram enviados com um indice extremamente baixo de erros pelos funcionarios do local(imagine que vergonha para uma empresa de renome em todo o estado do Amazonas). <br/>
-                    <span className='prod'>foi um projeto simple mas que resolveu um problema do mundo real!</span>
+                    <p className='email-text'>Esse foi um dos projetos que trouxe mais resultados do que beleza ou tecnologias usadas.<br/><br/> 
+                    Ao chegar em uma empresa de nível estadual como estagiário, percebi um problema logo de cara: o envio excessivo de e-mails feito pelos estagiários a mão, uma hora era encaminhado com erros, às vezes de ortografia, às vezes os nomes de "professor fulano" eram trocados por "professora ciclana" e o corpo ficava todo confuso. <br/> <br/>
+                    Eu estava aprendendo JavaScript e percebi que poderia solucionar esse problema, trazendo mais <span className='prod'>produtividade</span> e menos <span className='erro'>erros</span> para a empresa. Então, com muita vontade de resolver o erro, fiz um site simples, porém que fez sucesso no ambiente de trabalho, que resolvia ativamente esse problema. Desde então, os e-mails foram enviados com um índice extremamente baixo de erros pelos funcionários do local (imagine que vergonha para uma empresa de renome em todo o estado do Amazonas). <br/>
+                    <span className='prod'>Foi um projeto simples, mas que resolveu um problema do mundo real!</span>
                     </p>
                     <div className='buttons-container'>
                     <a className='cta-buttons' href='https://theotrin.github.io/PreparadorDeEmail/' target='blank' >Ver projeto</a>
@@ -93,7 +96,8 @@ function Projects(){
 
             <div 
             className='project'
-            data-aos="zoom-in-left"
+            data-aos="zoom-in"
+            data-aos-delay="200"
             data-aos-duration="500"
             data-aos-offset="200"
             >
@@ -106,8 +110,8 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Backend</h4>
 
-                    <p>A API representou o projeto final da parceria entre Cubos Academy e iFood. Após seis meses intensos de aprendizado em backend, implementei meus conhecimentos e colaboramos em equipe. Composto por mim e cinco colegas escolhidos aleatoriamente de uma turma de 120 pessoas, enfrentamos desafios de logica de programação e divergencia de horarios. <br/><br />
-                    A parte técnica até que foi fácil. Porém, o desafio de fazer o projeto todo funcionar com várias pessoas diferentes e com diferenças de horário foi uma experiência e tanto. Trabalhamos com Git, dividimos o trabalho em partes, utilizamos a metodologia ágil em forma de scrum e fizemos sprints toda semana para a entrega de partes do projeto a cada uma semana.
+                    <p>AA API representou o projeto final da parceria entre a Cubos Academy e o iFood. Após seis meses intensos de aprendizado em backend, implementei meus conhecimentos e colaborei em equipe. Composto por mim e mais cinco colegas escolhidos aleatoriamente de uma turma de 120 pessoas, enfrentamos desafios de lógica de programação e divergência de horários.<br/><br />
+                    A parte técnica até que foi fácil. Porém, o desafio de fazer o projeto todo funcionar com várias pessoas diferentes e com diferenças de horário foi uma experiência e tanto. Trabalhamos com Git, dividimos o trabalho em partes, utilizamos a metodologia ágil em forma de scrum e fizemos sprints toda semana para a entrega de partes do projeto a cada semana.
                     </p>
                     <div className='buttons-container'>
                     <a className='cta-buttons' href='https://easy-gray-snail-cap.cyclic.app/categoria' target='blank' >Ver projeto</a>
@@ -125,7 +129,8 @@ function Projects(){
 
             <div 
             className='project'
-            data-aos="zoom-in-left"
+            data-aos="zoom-in"
+            data-aos-delay="200"
             data-aos-duration="500"
             data-aos-offset="200"
             >
@@ -137,9 +142,9 @@ function Projects(){
                 <div className='project-text'>
                     <h4 className='project-stack'>#Frontend</h4>
 
-                    <p>Projeto feito por mim do 0 com muito amor e vontade de fazer algo dirente!<br/><br/>
-                        Quando pensei em fazer um portifolio quis fazer algo que fosse dirente dos outros dirente do classico tema escuro e bordas aredondadas, e rapidamente me veio em mente algo que eu gosto muito: o universo cyberpunk! <br/><br/>
-                        Fazer esse projeto foi me arrancar da zona de conforto escolhi React e Typescript pois acho a possibilidade de organizar componentes maravilhosa e extremamente prática
+                    <p>Projeto feito por mim do zero com muito amor e vontade de fazer algo diferente!<br/><br/>
+                        Quando pensei em fazer um portfólio, quis fazer algo que fosse diferente dos outros, diferente do clássico tema escuro e bordas arredondadas. Rapidamente me veio em mente algo que eu gosto muito: o universo cyberpunk! <br/><br/>
+                        Fazer esse projeto foi me arrancar da zona de conforto. Escolhi React e TypeScript pois acho a possibilidade de organizar componentes maravilhosa e extremamente prática.
                     </p>
                     <div className='buttons-container'>
                     <button className='cta-buttons' onClick={() => window.alert('você esta nele!')}  >Ver projeto</button>
@@ -156,7 +161,8 @@ function Projects(){
 
             <div 
             className='project'
-            data-aos="zoom-in-left"
+            data-aos="zoom-in"
+            data-aos-delay="200"
             data-aos-duration="500"
             data-aos-offset="200"
             >
@@ -168,10 +174,10 @@ function Projects(){
              <div className='project-text'>
                  <h4 className='project-stack'>#Fullstack</h4>
 
-                 <p>Essa foi a primeira vez "estilizando o backend" <br /><br />
-                 Ao informar o cep o site retorna os dados da rua,bairro,complemento e a cidade e estado! <br/>
-                 Nele ultilizei o Axios para consumir a API viacep fiz algumas validações para evitar erros pela parte do usuario. <br />
-                 A facilidade que o react tem em fazer isso me deixou impressionado fullstack é o melhor de dois mundos!
+                 <p>Essa foi a primeira vez que estilizei o backend :D.<br /><br />
+                 Ao informar o CEP, o site retorna os dados da rua, bairro, complemento e a cidade e estado.<br/>
+                 Nele, utilizei o Axios para consumir a API ViaCEP e fiz algumas validações para evitar erros por parte do usuário. <br />
+                 A facilidade que o React tem em fazer isso me deixou impressionado. Fullstack é o melhor dos dois mundos!
                  </p>
                  <div className='buttons-container'>
                  <a className='cta-buttons' href='https://buscador-cep-black.vercel.app' target='blank' >Ver projeto</a>

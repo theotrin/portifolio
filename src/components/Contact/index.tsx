@@ -1,10 +1,15 @@
 import './style.css'
 import React from 'react';
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css'
 
 
 function Contact(){
 
-
+   useEffect(() => {
+      AOS.init();
+    }, [])
 
  return(
      <footer className='contact-me'>
@@ -21,14 +26,24 @@ function Contact(){
             </div>
 
             <div className='buttons-section'>
-            <a className="button" href="https://www.linkedin.com/in/theo-trindade/" target='blank' style={{"--color": '#1e9bff'} as React.CSSProperties}>
+            <a className="button"
+             data-aos="fade-right"
+             data-aos-delay="200"
+             data-aos-duration="500"
+             data-aos-offset="200"
+             href="https://www.linkedin.com/in/theo-trindade/" target='blank' style={{"--color": '#1e9bff'} as React.CSSProperties}>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Linkedin
             </a>
-            <a className="button" href="mailto:theopinheiro12@gmail.com" target='blank' style={{"--color": 'red'} as React.CSSProperties}>
+            <a className="button"
+               data-aos="fade-left"
+               data-aos-delay="200"
+               data-aos-duration="500"
+               data-aos-offset="200"
+            href="mailto:theopinheiro12@gmail.com" target='blank' style={{"--color": 'red'} as React.CSSProperties}>
             <span></span>
             <span></span>
             <span></span>

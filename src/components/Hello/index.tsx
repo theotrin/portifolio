@@ -1,7 +1,7 @@
 import './style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function Hello(){
     useEffect(() => {
@@ -15,16 +15,25 @@ function Hello(){
       return(
         <div className='apresentation'>
 
-        <h1 
+      <div className="stack" style= {{"--stacks": "3"} as React.CSSProperties}>
+          <span style= {{"--index": "0"} as React.CSSProperties }><h1 
         className='my-name-is' 
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-out">
+       >
         <strong> 
             Olá meu nome é <span className='name'>Theo Trindade</span> 
-            <br/>e sou um desenvolvedor fullstack!</strong></h1>
+            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+          <span style= {{"--index": "1"} as React.CSSProperties}> <h1 
+        className='my-name-is' >
+        <strong> 
+            Olá meu nome é <span className='name'>Theo Trindade</span> 
+            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+          <span style= {{"--index": "2"} as React.CSSProperties}> <h1 
+        className='my-name-is' 
+  >
+        <strong> 
+            Olá meu nome é <span className='name'>Theo Trindade</span> 
+            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+        </div>
             
        
             <button 
