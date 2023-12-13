@@ -1,5 +1,5 @@
 .my-name-is{
-    font-size: 7rem;
+    font-size: 4.9vw;
 }
 
 .apresentation{
@@ -55,6 +55,7 @@
     height: 7rem;
     line-height: 7.5rem;
     transition: background 0.2s;
+
   }
   
   .cybr-btn:hover {
@@ -190,3 +191,25 @@
   .cybr-btn:nth-of-type(2) {
     --primary-hue: 260;
   }
+
+
+
+
+  @media only screen and (max-width: 600px){
+
+    .my-name-is {
+      font-size: 9vw;
+      text-align: center;
+    }
+
+    .apresentation {
+      margin-top: 6rem;
+      padding: 1.5rem 2rem;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
+  
