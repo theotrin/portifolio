@@ -43,7 +43,7 @@ function Contact(){
                data-aos-delay="200"
                data-aos-duration="500"
                data-aos-offset="200"
-            href="mailto:theopinheiro12@gmail.com" target='blank' style={{"--color": 'red'} as React.CSSProperties}>
+            href="mailto:theotrin.dev@gmail.com" target='blank' style={{"--color": 'red'} as React.CSSProperties}>
             <span></span>
             <span></span>
             <span></span>
