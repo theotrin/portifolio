@@ -15,7 +15,8 @@ function Hello(){
       return(
         <div className='apresentation'>
 
-        <h1 className='my-name-is' 
+        <h1 
+        className='my-name-is' 
         data-aos="fade-right"
         data-aos-duration="1000"
         data-aos-delay="500"
@@ -25,7 +26,7 @@ function Hello(){
             Olá meu nome é <span className='name'>Theo Trindade</span> 
             <br/>e sou um desenvolvedor fullstack!</strong></h1>
             
-        
+       
             <button 
             className="cybr-btn"
             data-aos="fade-right"

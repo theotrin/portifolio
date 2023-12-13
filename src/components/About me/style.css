@@ -32,6 +32,10 @@
 .about-me-text{
   width: 47rem;
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -99,4 +103,36 @@
   transform: translateX(-50%) translateY(-100%);
   opacity: 1;
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.about-me-image img{
+  width: 28vw;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  .about-me-content p {
+    font-size: 1.5em;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    width: 95vw;
+  }
+
+  .about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    flex-direction: column;
+  }
+
+  .about-me-text{}
+
+  .about-me-image img{
+    width: 40vw;
+  }
+
 }

@@ -17,10 +17,11 @@ function AboutMe (){
         </div>    
         <div className="about-me-content">
         <div
+        className='about-me-image'
         data-aos="fade-right"
         data-aos-duration="2000"
         >
-            <img src={picture} width={350}/> 
+            <img src={picture} /> 
         </div>
 
         <div className='about-me-text'
