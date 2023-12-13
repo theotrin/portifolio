@@ -28,12 +28,14 @@ function Projects(){
         <div>
 
             <h2 className='project-main-title'>Projetos</h2>
-            <div className='project'>
+            <div className='project'
+               data-aos="zoom-in-left"
+               data-aos-duration="500"
+               data-aos-offset="200"
+               data-aos-delay="500"
+            >
             
                <div 
-                data-aos="zoom-in-right"
-                data-aos-duration="500"
-                data-aos-offset="200"
                className="project-text-content">
                <div className='project-title'><h2>Api CRUD bancaria</h2></div>
 
@@ -51,20 +53,20 @@ function Projects(){
                
                 className='project-image'>
                     <img 
-                    data-aos="zoom-in-left"
-                    data-aos-duration="500"
-                    data-aos-offset="200"
                     src={project_0_image} alt="fazendo operações em um caixa eletrônico" />
                 </div>
             </div>
            
            
-            <div className='project'>
+            <div 
+            className='project'
+            data-aos="zoom-in-left"
+            data-aos-duration="500"
+            data-aos-offset="200"
+            >
             
                <div 
-                data-aos="zoom-in-left"
-                data-aos-duration="500"
-                data-aos-offset="200"
+                
                className="project-text-content">
                <div className='project-title'><h2>Preparador de email</h2></div>
 
@@ -84,20 +86,20 @@ function Projects(){
                 </div> 
                 <div className='project-image'>
                     <img
-                    data-aos="zoom-in-right"
-                    data-aos-duration="500"
-                    data-aos-offset="200"
                     src={EmailProject} alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
                 </div>
             </div>
 
 
-            <div className='project'>
+            <div 
+            className='project'
+            data-aos="zoom-in-left"
+            data-aos-duration="500"
+            data-aos-offset="200"
+            >
             
                <div 
-                data-aos="zoom-in-left"
-                data-aos-duration="500"
-                data-aos-offset="200"
+                
                className="project-text-content">
                <div className='project-title'><h2>Api PDV frente de caixa</h2></div>
 
@@ -116,20 +118,19 @@ function Projects(){
                 </div> 
                 <div className='project-image'>
                     <img 
-                     data-aos="zoom-in-right"
-                     data-aos-duration="500"
-                     data-aos-offset="200"
                     src={PdvApi}  alt="<a href= 'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-e-mail_10839364.htm#query=send%20email&position=18&from_view=search&track=ais&uuid=d1f720c6-5c20-47c2-87b3-d5dd5a05a0bd'>Imagem de storyset</a> no Freepik" />
                 </div>
             </div>
 
 
-            <div className='project'>
+            <div 
+            className='project'
+            data-aos="zoom-in-left"
+            data-aos-duration="500"
+            data-aos-offset="200"
+            >
             
                <div 
-                data-aos="zoom-in-left"
-                data-aos-duration="500"
-                data-aos-offset="200"
                className="project-text-content">
                <div className='project-title'><h2>Esse portifolio!</h2></div>
 
@@ -149,19 +150,18 @@ function Projects(){
                 </div> 
                 <div className='project-image'>
                     <img 
-                     data-aos="zoom-in-right"
-                     data-aos-duration="500"
-                     data-aos-offset="200"
                     src={CyberpunkProject}  alt="David e Lucy do anime cyberpunk mercenarios" />
                 </div>
             </div>
 
-            <div className='project'>
+            <div 
+            className='project'
+            data-aos="zoom-in-left"
+            data-aos-duration="500"
+            data-aos-offset="200"
+            >
             
             <div 
-             data-aos="zoom-in-left"
-             data-aos-duration="500"
-             data-aos-offset="200"
             className="project-text-content">
             <div className='project-title'><h2>Buscador de CEP!</h2></div>
 
@@ -182,9 +182,6 @@ function Projects(){
              </div> 
              <div className='project-image'>
                  <img 
-                  data-aos="zoom-in-right"
-                  data-aos-duration="500"
-                  data-aos-offset="200"
                  src={BuscadorCep}  alt="David e Lucy do anime cyberpunk mercenarios" />
              </div>
          </div>

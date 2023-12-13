@@ -8,8 +8,12 @@ function Contact(){
 
  return(
      <footer className='contact-me'>
+        <div className='ctt'>
+
+
+      
         <h2 className='about-me-title'>Fale comigo!</h2>
-   
+
             <div className='aboute-me-text'>
 
             <p>"Gostou do que viu? Estou entusiasmado para discutir oportunidades de colaboração! <br /> <br/> Entre em contato comigo para explorarmos como posso agregar valor à sua equipe.</p>
@@ -30,18 +34,10 @@ function Contact(){
             <span></span>
             <span></span>
             Email
-            </a>
-            
+            </a>       
 
-       </div>
-       
-           
-
-
-    
-    
-
-        
+       </div>  
+       </div>        
     </footer>
  )
 }

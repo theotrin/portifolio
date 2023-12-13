@@ -14,7 +14,7 @@
 }
 
 .aboute-me-text p{
-    width: 50rem;
+    width: 95vw;
     font-size: 1.7rem;
     font-family: 'Lexend', sans-serif;
     margin-bottom: 10rem;
@@ -27,10 +27,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 50rem;
+    width: 35vw;
 }
   
+.ctt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.about-me-title{
+  margin-bottom: 3rem;
+}
 
 
 .button {
@@ -154,4 +163,33 @@
   
   .button:hover span:nth-child(4 ) {
     bottom: 50%;
+  }
+
+  @media only screen and (max-width: 600px){
+    .button span:nth-child(1), .button span:nth-child(3) {
+      width: 0;
+      height: 11px;
+    }
+
+    .buttons-section{
+      width: 80vw;
+  }
+
+  }
+
+  @media only screen and (max-width: 1085px){
+
+    .buttons-section{
+      width: 50vw;
+  }
+
+  }
+
+  
+  @media only screen and (max-width: 765px){
+
+    .buttons-section{
+      width: 70vw;
+  }
+
   }
