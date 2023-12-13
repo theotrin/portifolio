@@ -21,7 +21,7 @@ function Contact(){
 
             <div className='aboute-me-text'>
 
-            <p>"Gostou do que viu? Estou entusiasmado para discutir oportunidades de colaboração! <br /> <br/> Entre em contato comigo para explorarmos como posso agregar valor à sua equipe.</p>
+            <p>Gostou do que viu? Estou entusiasmado para discutir oportunidades de colaboração! <br /> <br/> Entre em contato comigo para explorarmos como posso agregar valor à sua equipe.</p>
 
             </div>
 
