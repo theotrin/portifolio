@@ -15,7 +15,7 @@ function AboutMe (){
         <section id='about'  className='about'>
         
         <div className='about-me-title'>
-            <h2>Sobre min</h2>       
+            <h2>Sobre mim</h2>       
         </div>    
         <div className="about-me-content">
         <div
