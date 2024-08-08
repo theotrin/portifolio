@@ -66,7 +66,6 @@ function Projects(){
             data-aos-duration="500"
             data-aos-offset="200"
             >
-            
                <div 
                 
                className="project-text-content">
@@ -191,13 +190,6 @@ function Projects(){
                  src={BuscadorCep}  alt="David e Lucy do anime cyberpunk mercenarios" />
              </div>
          </div>
-
-
-
-
-            
-
-
         </div>
     )
 }

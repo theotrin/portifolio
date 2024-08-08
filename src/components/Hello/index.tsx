@@ -15,27 +15,31 @@ function Hello(){
       return(
         <div className='apresentation'>
 
-      <div className="stack" style= {{"--stacks": "3"} as React.CSSProperties}>
-          <span style= {{"--index": "0"} as React.CSSProperties }><h1 
-        className='my-name-is' 
-       >
+      <div className="stack" style= {{"--stacks": "3"} as React.CSSProperties}
+      >
+         <span style= {{"--index": "0"} as React.CSSProperties }><h1 
+        className='my-name-is'>
         <strong> 
             Olá meu nome é <span className='name'>Theo Trindade</span> 
-            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+            <br/>e sou um desenvolvedor fullstack!</strong></h1>
+         </span>
+
           <span style= {{"--index": "1"} as React.CSSProperties}> <h1 
         className='my-name-is' >
         <strong> 
             Olá meu nome é <span className='name'>Theo Trindade</span> 
-            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+            <br/>e sou um desenvolvedor fullstack!</strong></h1>
+          </span>
+
           <span style= {{"--index": "2"} as React.CSSProperties}> <h1 
-        className='my-name-is' 
-  >
+        className='my-name-is'>
         <strong> 
             Olá meu nome é <span className='name'>Theo Trindade</span> 
-            <br/>e sou um desenvolvedor fullstack!</strong></h1></span>
+            <br/>e sou um desenvolvedor fullstack!</strong></h1>
+          </span>
+
         </div>
-            
-       
+               
             <button 
             className="cybr-btn"
             data-aos="fade-right"
