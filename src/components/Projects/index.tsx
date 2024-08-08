@@ -4,6 +4,8 @@ import EmailProject from '../../assets/email project.jpg'
 import PdvApi from '../../assets/pdv api.jpg'
 import CyberpunkProject from '../../assets/cyberpunk project.jpg'
 import BuscadorCep from '../../assets/buscador de cep.png'
+import UsersFilter from '../../assets/users-filter-angular.png'
+import TodoBemol from '../../assets/projeto_bemol.png'
 import Tilt from 'vanilla-tilt';
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -28,6 +30,7 @@ function Projects(){
         <div>
 
             <h2 className='project-main-title'>Projetos</h2>
+            
             <div 
               className='project'
               data-aos="zoom-in"
@@ -35,13 +38,74 @@ function Projects(){
               data-aos-duration="500"
               data-aos-offset="200"
             >
-            
+
+               <div 
+               className="project-text-content">
+               <div className='project-title'><h2>Lista de Tarefas Bemol</h2></div>
+
+                <div className='project-text'>
+                    <h4 className='project-stack'>#Full Stack</h4>
+
+                    <p>Este projeto foi um desafio técnico para uma vaga de emprego, que envolvia a criação de uma API para conectar com a interface front-end. A API deveria permitir a criação, conclusão e exclusão de tarefas em uma lista gerada pelo usuário. Era essencial que a API fosse robusta, com testes unitários e seguisse os padrões de qualidade REST. Logo após o termino desse projeto fui contatado para preencher a vaga!</p>
+                    <div className='buttons-container'>
+                    <a  href='https://github.com/theotrin/apresentacao-desafio-bemol'target='blank'  className='cta-buttons github-button'>Ver apresentação do projeto</a>
+                    </div>
+                </div>
+                
+                </div> 
+                <div 
+               
+                className='project-image'>
+                    <img 
+                    src={TodoBemol} alt="fazendo operações em um caixa eletrônico" />
+                </div>
+            </div>
+
+            <div 
+              className='project'
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-aos-duration="500"
+              data-aos-offset="200"
+            >
+
+               <div 
+               className="project-text-content">
+               <div className='project-title'><h2>Filtro de usuarios</h2></div>
+
+                <div className='project-text'>
+                    <h4 className='project-stack'>#Front end</h4>
+
+                    <p>O projeto realiza a filtragem de usuários em um sistema, permitindo pesquisas por nome, data e status (se o usuário está ativo ou não). Foi o meu primeiro grande projeto em Angular, onde utilizei as melhores práticas, como two-way data binding, pipes e diversas outras técnicas avançadas.</p>
+                    <div className='buttons-container'>
+                    <a className='cta-buttons' href='https://users-filter-angular.vercel.app/' target='blank' >Ver projeto</a>
+                    <a  href='https://github.com/theotrin/users-filter-angular'target='blank'  className='cta-buttons github-button'>Ver codigo</a>
+                    </div>
+                </div>
+                
+                </div> 
+                <div 
+               
+                className='project-image'>
+                    <img 
+                    src={UsersFilter} alt="fazendo operações em um caixa eletrônico" />
+                </div>
+            </div>
+
+            <div 
+              className='project'
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-aos-duration="500"
+              data-aos-offset="200"
+            >
+
                <div 
                className="project-text-content">
                <div className='project-title'><h2>Api CRUD bancaria</h2></div>
 
                 <div className='project-text'>
-                    <h4 className='project-stack'>#Backend</h4>
+                    <h4 className='project-stack'>#Back end</h4>
 
                     <p>Desenvolvi uma API REST com Express, Node e Nodemon. Oferece funcionalidades como: criar, listar, atualizar, excluir contas bancárias, depósito, saque, transferência, consulta de saldo e emissão de extrato. <br/> É eficiente e escalável para gestão simplificada de operações bancárias. Foi uma prova proposta pela Cubos Academy, onde tirei nota máxima.</p>
                     <div className='buttons-container'>
@@ -58,7 +122,7 @@ function Projects(){
                 </div>
             </div>
            
-           
+
             <div 
             className='project'
             data-aos="zoom-in"
@@ -72,7 +136,7 @@ function Projects(){
                <div className='project-title'><h2>Preparador de email</h2></div>
 
                 <div className='project-text'>
-                    <h4 className='project-stack'>#Frontend</h4>
+                    <h4 className='project-stack'>#Front end</h4>
 
                     <p className='email-text'>Esse foi um dos projetos que trouxe mais resultados do que beleza ou tecnologias usadas.<br/><br/> 
                     Ao chegar em uma empresa de nível estadual como estagiário, percebi um problema logo de cara: o envio excessivo de e-mails feito pelos estagiários a mão, uma hora era encaminhado com erros, às vezes de ortografia, às vezes os nomes de "professor fulano" eram trocados por "professora ciclana" e o corpo ficava todo confuso. <br/> <br/>
@@ -107,7 +171,7 @@ function Projects(){
                <div className='project-title'><h2>Api PDV frente de caixa</h2></div>
 
                 <div className='project-text'>
-                    <h4 className='project-stack'>#Backend</h4>
+                    <h4 className='project-stack'>#Back end</h4>
 
                     <p>AA API representou o projeto final da parceria entre a Cubos Academy e o iFood. Após seis meses intensos de aprendizado em backend, implementei meus conhecimentos e colaborei em equipe. Composto por mim e mais cinco colegas escolhidos aleatoriamente de uma turma de 120 pessoas, enfrentamos desafios de lógica de programação e divergência de horários.<br/><br />
                     A parte técnica até que foi fácil. Porém, o desafio de fazer o projeto todo funcionar com várias pessoas diferentes e com diferenças de horário foi uma experiência e tanto. Trabalhamos com Git, dividimos o trabalho em partes, utilizamos a metodologia ágil em forma de scrum e fizemos sprints toda semana para a entrega de partes do projeto a cada semana.
@@ -139,7 +203,7 @@ function Projects(){
                <div className='project-title'><h2>Esse portifolio!</h2></div>
 
                 <div className='project-text'>
-                    <h4 className='project-stack'>#Frontend</h4>
+                    <h4 className='project-stack'>#Front end</h4>
 
                     <p>Projeto feito por mim do zero com muito amor e vontade de fazer algo diferente!<br/><br/>
                         Quando pensei em fazer um portfólio, quis fazer algo que fosse diferente dos outros, diferente do clássico tema escuro e bordas arredondadas. Rapidamente me veio em mente algo que eu gosto muito: o universo cyberpunk! <br/><br/>
@@ -171,7 +235,7 @@ function Projects(){
             <div className='project-title'><h2>Buscador de CEP!</h2></div>
 
              <div className='project-text'>
-                 <h4 className='project-stack'>#Fullstack</h4>
+                 <h4 className='project-stack'>#Full stack</h4>
 
                  <p>Essa foi a primeira vez que estilizei o backend :D.<br /><br />
                  Ao informar o CEP, o site retorna os dados da rua, bairro, complemento e a cidade e estado.<br/>
