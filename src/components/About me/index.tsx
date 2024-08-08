@@ -40,12 +40,12 @@ function AboutMe (){
                 <br/>
                 No tempo vago e fora da área de programação, gosto de jogar videogame, desafiar os limites do meu corpo em calistenia, assistir animes e adoro passear sem rumo enquanto minha mente divaga em pensamentos aleatórios e distópicos :p</p>
        
-        <div className='about-me-button'>
+        {/* <div className='about-me-button'>
         <a 
         href={curriculo}
         target='blank'
         className="button-cover" role="button"><span className="text">Ver Curriculo</span><span>Otima Escolha!</span></a>
-        </div>
+        </div> */}
        
         </div>
         
